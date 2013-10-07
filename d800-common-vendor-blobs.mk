@@ -48,17 +48,16 @@ PRODUCT_COPY_FILES += \
     vendor/lge/d800-common/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
     vendor/lge/d800-common/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/lge/d800-common/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
-    vendor/lge/d800-common/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
-    vendor/lge/d800-common/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
-    vendor/lge/d800-common/proprietary/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
-    vendor/lge/d800-common/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
-    vendor/lge/d800-common/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
-    vendor/lge/d800-common/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
+    vendor/lge/d800-common/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
+    vendor/lge/d800-common/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
+    vendor/lge/d800-common/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
+    vendor/lge/d800-common/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
+    vendor/lge/d800-common/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
+    vendor/lge/d800-common/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/lge/d800-common/proprietary/etc/firmware/fw_bcmdhd.bin:system/etc/firmware/fw_bcmdhd.bin \
     vendor/lge/d800-common/proprietary/etc/firmware/fw_bcmdhd_apsta.bin:system/etc/firmware/fw_bcmdhd_apsta.bin \
     vendor/lge/d800-common/proprietary/etc/firmware/fw_bcmdhd_mfg.bin:system/etc/firmware/fw_bcmdhd_mfg.bin \
     vendor/lge/d800-common/proprietary/etc/firmware/fw_bcmdhd_p2p.bin:system/etc/firmware/fw_bcmdhd_p2p.bin \
-    vendor/lge/d800-common/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
     vendor/lge/d800-common/proprietary/etc/firmware/wcd9320/wcd9320_anc.bin:system/etc/firmware/wcd9320/wcd9320_anc.bin \
     vendor/lge/d800-common/proprietary/etc/firmware/wcd9320/wcd9320_mbhc.bin:system/etc/firmware/wcd9320/wcd9320_mbhc.bin \
     vendor/lge/d800-common/proprietary/etc/wifi/bcmdhd.cal:system/etc/wifi/bcmdhd.cal \
@@ -66,9 +65,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/d800-common/proprietary/lib/libAKM8963.so:system/lib/libAKM8963.so \
     vendor/lge/d800-common/proprietary/lib/libalsautils.so:system/lib/libalsautils.so \
     vendor/lge/d800-common/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
-    vendor/lge/d800-common/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
-    vendor/lge/d800-common/proprietary/lib/libaudioparsers.so:system/lib/libaudioparsers.so \
-    vendor/lge/d800-common/proprietary/lib/libcamera_fast_af.so:system/lib/libcamera_fast_af.so \
     vendor/lge/d800-common/proprietary/lib/libchromatix_imx132_common.so:system/lib/libchromatix_imx132_common.so \
     vendor/lge/d800-common/proprietary/lib/libchromatix_imx132_default_video.so:system/lib/libchromatix_imx132_default_video.so \
     vendor/lge/d800-common/proprietary/lib/libchromatix_imx132_mms_video.so:system/lib/libchromatix_imx132_mms_video.so \
@@ -81,9 +77,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/d800-common/proprietary/lib/libchromatix_imx135_preview.so:system/lib/libchromatix_imx135_preview.so \
     vendor/lge/d800-common/proprietary/lib/libchromatix_imx135_snapshot.so:system/lib/libchromatix_imx135_snapshot.so \
     vendor/lge/d800-common/proprietary/lib/libchromatix_imx135_video_dualrec.so:system/lib/libchromatix_imx135_video_dualrec.so \
-    vendor/lge/d800-common/proprietary/lib/libCommandSvc.so:system/lib/libCommandSvc.so \
-    vendor/lge/d800-common/proprietary/lib/libconfigdb.so:system/lib/libconfigdb.so \
-    vendor/lge/d800-common/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
     vendor/lge/d800-common/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/lge/d800-common/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
     vendor/lge/d800-common/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
@@ -93,7 +86,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/d800-common/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/lge/d800-common/proprietary/lib/libDxHdcp.so:system/lib/libDxHdcp.so \
     vendor/lge/d800-common/proprietary/lib/libHDR.so:system/lib/libHDR.so \
-    vendor/lge/d800-common/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     vendor/lge/d800-common/proprietary/lib/libidl.so:system/lib/libidl.so \
     vendor/lge/d800-common/proprietary/lib/libllvm-arm.so:system/lib/libllvm-arm.so \
     vendor/lge/d800-common/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
@@ -104,7 +96,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/d800-common/proprietary/lib/libmmcamera2_isp_modules.so:system/lib/libmmcamera2_isp_modules.so \
     vendor/lge/d800-common/proprietary/lib/libmmcamera2_pproc_modules.so:system/lib/libmmcamera2_pproc_modules.so \
     vendor/lge/d800-common/proprietary/lib/libmmcamera2_sensor_modules.so:system/lib/libmmcamera2_sensor_modules.so \
-    vendor/lge/d800-common/proprietary/lib/libmmcamera2_stats_algorithm..so:system/lib/libmmcamera2_stats_algorithm..so \
+    vendor/lge/d800-common/proprietary/lib/libmmcamera2_stats_algorithm.so:system/lib/libmmcamera2_stats_algorithm.so \
     vendor/lge/d800-common/proprietary/lib/libmmcamera2_stats_modules.so:system/lib/libmmcamera2_stats_modules.so \
     vendor/lge/d800-common/proprietary/lib/libmmcamera2_vpe_module.so:system/lib/libmmcamera2_vpe_module.so \
     vendor/lge/d800-common/proprietary/lib/libmmcamera2_wnr_module.so:system/lib/libmmcamera2_wnr_module.so \
@@ -120,7 +112,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/d800-common/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/lge/d800-common/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/lge/d800-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/lge/d800-common/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/lge/d800-common/proprietary/lib/libmorpho_image_stab31.so:system/lib/libmorpho_image_stab31.so \
     vendor/lge/d800-common/proprietary/lib/libmorpho_noise_reduction.so:system/lib/libmorpho_noise_reduction.so \
     vendor/lge/d800-common/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
@@ -153,7 +144,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/d800-common/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/lge/d800-common/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/lge/d800-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
-    vendor/lge/d800-common/proprietary/vendor/lib/egl/ibGLESv2_adreno.so:system/vendor/lib/egl/ibGLESv2_adreno.so \
+    vendor/lge/d800-common/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
     vendor/lge/d800-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/lge/d800-common/proprietary/vendor/lib/hw/camera.msm8974.so:system/vendor/lib/hw/camera.msm8974.so \
     vendor/lge/d800-common/proprietary/vendor/lib/hw/sensors.msm8930.so:system/vendor/lib/hw/sensors.msm8930.so \
@@ -163,13 +154,18 @@ PRODUCT_COPY_FILES += \
     vendor/lge/d800-common/proprietary/vendor/lib/libc2d2_a3xx.so:system/vendor/lib/libc2d2_a3xx.so \
     vendor/lge/d800-common/proprietary/vendor/lib/libc2d2_z180.so:system/vendor/lib/libc2d2_z180.so \
     vendor/lge/d800-common/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
+    vendor/lge/d800-common/proprietary/vendor/lib/libCommandSvc.so:system/vendor/lib/libCommandSvc.so \
+    vendor/lge/d800-common/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
+    vendor/lge/d800-common/proprietary/vendor/lib/libcsd-client.so:system/vendor/lib/libcsd-client.so \
     vendor/lge/d800-common/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/lge/d800-common/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
+    vendor/lge/d800-common/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/lge/d800-common/proprietary/vendor/lib/libllvm-a3xx.so:system/vendor/lib/libllvm-a3xx.so \
     vendor/lge/d800-common/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/lge/d800-common/proprietary/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
     vendor/lge/d800-common/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
     vendor/lge/d800-common/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
+    vendor/lge/d800-common/proprietary/vendor/lib/libsurround_proc.so:system/vendor/lib/libsurround_proc.so \
     vendor/lge/d800-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/lge/d800-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/lge/d800-common/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so
