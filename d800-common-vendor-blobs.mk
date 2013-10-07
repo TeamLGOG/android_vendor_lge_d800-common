@@ -62,23 +62,12 @@ PRODUCT_COPY_FILES += \
     vendor/lge/d800-common/proprietary/etc/firmware/wcd9320/wcd9320_anc.bin:system/etc/firmware/wcd9320/wcd9320_anc.bin \
     vendor/lge/d800-common/proprietary/etc/firmware/wcd9320/wcd9320_mbhc.bin:system/etc/firmware/wcd9320/wcd9320_mbhc.bin \
     vendor/lge/d800-common/proprietary/etc/wifi/bcmdhd.cal:system/etc/wifi/bcmdhd.cal \
-    vendor/lge/d800-common/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-    vendor/lge/d800-common/proprietary/lib/egl/libEGL_adreno.so:system/lib/egl/libEGL_adreno.so \
-    vendor/lge/d800-common/proprietary/lib/egl/libGLESv1_CM_adreno.so:system/lib/egl/libGLESv1_CM_adreno.so \
-    vendor/lge/d800-common/proprietary/lib/egl/ibGLESv2_adreno.so:system/lib/egl/ibGLESv2_adreno.so \
-    vendor/lge/d800-common/proprietary/lib/egl/libq3dtools_adreno.so:system/lib/egl/libq3dtools_adreno.so \
-    vendor/lge/d800-common/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.msm8974.so \
-    vendor/lge/d800-common/proprietary/lib/hw/sensors.msm8930.so:system/lib/hw/sensors.msm8930.so \
-    vendor/lge/d800-common/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
     vendor/lge/d800-common/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/lge/d800-common/proprietary/lib/libAKM8963.so:system/lib/libAKM8963.so \
     vendor/lge/d800-common/proprietary/lib/libalsautils.so:system/lib/libalsautils.so \
     vendor/lge/d800-common/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/lge/d800-common/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/lge/d800-common/proprietary/lib/libaudioparsers.so:system/lib/libaudioparsers.so \
-    vendor/lge/d800-common/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
-    vendor/lge/d800-common/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
-    vendor/lge/d800-common/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
     vendor/lge/d800-common/proprietary/lib/libcamera_fast_af.so:system/lib/libcamera_fast_af.so \
     vendor/lge/d800-common/proprietary/lib/libchromatix_imx132_common.so:system/lib/libchromatix_imx132_common.so \
     vendor/lge/d800-common/proprietary/lib/libchromatix_imx132_default_video.so:system/lib/libchromatix_imx132_default_video.so \
@@ -103,11 +92,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/d800-common/proprietary/lib/libdsucsd.so:system/lib/libdsucsd.so \
     vendor/lge/d800-common/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/lge/d800-common/proprietary/lib/libDxHdcp.so:system/lib/libDxHdcp.so \
-    vendor/lge/d800-common/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/lge/d800-common/proprietary/lib/libHDR.so:system/lib/libHDR.so \
     vendor/lge/d800-common/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     vendor/lge/d800-common/proprietary/lib/libidl.so:system/lib/libidl.so \
-    vendor/lge/d800-common/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
     vendor/lge/d800-common/proprietary/lib/libllvm-arm.so:system/lib/libllvm-arm.so \
     vendor/lge/d800-common/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/lge/d800-common/proprietary/lib/libmmcamera2_c2d_module.so:system/lib/libmmcamera2_c2d_module.so \
@@ -140,8 +127,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/d800-common/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/lge/d800-common/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
     vendor/lge/d800-common/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
-    vendor/lge/d800-common/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
-    vendor/lge/d800-common/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/lge/d800-common/proprietary/lib/libproxyhal.so:system/lib/libproxyhal.so \
     vendor/lge/d800-common/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     vendor/lge/d800-common/proprietary/lib/libqdi.so:system/lib/libqdi.so \
@@ -157,8 +142,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/d800-common/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/lge/d800-common/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/lge/d800-common/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
-    vendor/lge/d800-common/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
-    vendor/lge/d800-common/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
     vendor/lge/d800-common/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
     vendor/lge/d800-common/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
     vendor/lge/d800-common/proprietary/lib/libsensor_user_cal.so:system/lib/libsensor_user_cal.so \
@@ -166,8 +149,27 @@ PRODUCT_COPY_FILES += \
     vendor/lge/d800-common/proprietary/vendor/firmware/BCM20791B4_002.005.010.0098.0000_Generic_I2CNVM1NOUICC1_NCD_Signed_configdata.ncd:system/vendor/firmware/BCM20791B4_002.005.010.0098.0000_Generic_I2CNVM1NOUICC1_NCD_Signed_configdata.ncd \
     vendor/lge/d800-common/proprietary/vendor/firmware/BCM20791B4_002.005.010.0098.0000_Generic_PreI2C_NCD_Signed_configdata.ncd:system/vendor/firmware/BCM20791B4_002.005.010.0098.0000_Generic_PreI2C_NCD_Signed_configdata.ncd \
     vendor/lge/d800-common/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0003_LGE_P6_A1_I2C_NCD_Signed_configdata.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0003_LGE_P6_A1_I2C_NCD_Signed_configdata.ncd \
+    vendor/lge/d800-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    vendor/lge/d800-common/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
+    vendor/lge/d800-common/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
+    vendor/lge/d800-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
+    vendor/lge/d800-common/proprietary/vendor/lib/egl/ibGLESv2_adreno.so:system/vendor/lib/egl/ibGLESv2_adreno.so \
+    vendor/lge/d800-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
+    vendor/lge/d800-common/proprietary/vendor/lib/hw/camera.msm8974.so:system/vendor/lib/hw/camera.msm8974.so \
+    vendor/lge/d800-common/proprietary/vendor/lib/hw/sensors.msm8930.so:system/vendor/lib/hw/sensors.msm8930.so \
+    vendor/lge/d800-common/proprietary/vendor/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
+    vendor/lge/d800-common/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
+    vendor/lge/d800-common/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
+    vendor/lge/d800-common/proprietary/vendor/lib/libc2d2_a3xx.so:system/vendor/lib/libc2d2_a3xx.so \
+    vendor/lge/d800-common/proprietary/vendor/lib/libc2d2_z180.so:system/vendor/lib/libc2d2_z180.so \
+    vendor/lge/d800-common/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/lge/d800-common/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
+    vendor/lge/d800-common/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
+    vendor/lge/d800-common/proprietary/vendor/lib/libllvm-a3xx.so:system/vendor/lib/libllvm-a3xx.so \
+    vendor/lge/d800-common/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
+    vendor/lge/d800-common/proprietary/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
+    vendor/lge/d800-common/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
+    vendor/lge/d800-common/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/lge/d800-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/lge/d800-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/lge/d800-common/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
-    vendor/lge/d800-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so
+    vendor/lge/d800-common/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so
